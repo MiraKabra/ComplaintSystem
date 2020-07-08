@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <!-- To show the complaint detail after clicking on some complaint in the homepage content -->
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".MainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/details_class_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Complaint Class"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/details_class"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Complaint Title"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/details_date_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Logged Date" />
+
+                <TextView
+                    android:id="@+id/details_date"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="16dp"
+                    />
+
+                <TextView
+                    android:id="@+id/details_issue_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Issue" />
+
+
+                <TextView
+                    android:id="@+id/details_issue"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="16dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/details_status_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Status" />
+
+                <TextView
+                    android:id="@+id/details_status"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

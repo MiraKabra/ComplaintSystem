@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ComplaintSystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homepage">Homepage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_personal_info_input">PersonalInfoInput</string>
+
+    <!-- For the Complaint Classes >
+    <string name="class_prompt"> Choose Problem Type </string>
+    <string-array name="class_arrays">
+        <item> Washing Machine </item>
+        <item> Electrical </item>
+        <item> Plumbing </item>
+        <item> Carpentry </item>
+        <item> Others </item>
+    </string-array-->
+
+
+</resources>
